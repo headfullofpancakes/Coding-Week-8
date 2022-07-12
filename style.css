@@ -1,0 +1,133 @@
+body {
+  background-color: #fefbe9;
+}
+
+/*Top Nav Bar*/
+.nav-list {
+  background-color: #fefbe9;
+  margin: 0;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+.nav-item {
+  list-style: none;
+  font-family: 'Raleway';
+  font-size: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #18ada6;
+}
+
+.nav-item a:hover {
+  color: #f0a04b;
+  border-bottom: 1px solid #f0a04b;
+  transition: .45s;
+}
+
+a:visited {
+  color: #18ada6;
+}
+
+  
+  /*RSVP FORM*/
+    .top {
+      background-color: #18ada6;
+      height: 200px;
+      margin:0;
+      padding:0;
+      box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
+    }
+    
+    .form {
+      height: 590px;
+      width: 400px;
+      background-color: #f6c453;
+      margin: -110px auto;
+      border-radius: 10px;
+      color: #183a1d;
+      padding: 0px 0px;
+      box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
+    }
+    
+    .info {
+      padding: 10px;
+    }
+    
+    h1.rsvp, h2.rsvp, p.rsvp {
+      text-align: center;
+      padding: 0px;
+      margin: 5px 5px;
+    }
+    
+    h2.rsvp {
+      font-family: 'Great Vibes', cursive;
+      font-weight: 100;
+    }
+    
+    p.line {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0px auto 20px auto;
+      color: #18ada6;
+    }
+    
+    .form input {
+      font-size: 15px;
+      color: #666;
+      padding: 6px;
+      margin: 25px auto 20px;
+      display: block;
+      width: 75%;  
+    }
+    
+    input:focus {
+      outline: 0;
+    }
+    
+    .button button {
+      display: inline-block;
+      width: 400px;
+    }
+    button {
+      color: #001488;
+      background-color: #0cccc2;
+      border: none;
+      font-family: 'Raleway';
+      font-size: 18px;
+      font-weight: 600;
+      padding: 15px 32px;
+      width: 200px;
+      margin: 20px auto 0px auto; 
+      float:left;
+    }
+    
+    button.accept {
+      border-radius: 0px 0px 0px 10px;
+      border-right: solid 1px #0cccc2;
+    }
+    
+    button.regret {
+      border-radius: 0px 0px 10px 0px;
+    }
+    
+    button:hover {
+      background-color: #117d9e;
+      transition: .5s;
+    }
+    
+    button:focus {
+      outline: 0;
+    }
+
+    p.faq-header {
+      display: flex;
+      justify-content: center;
+      border-bottom: 8px solid #f0a04b;
+      
+    }
