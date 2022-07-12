@@ -2,6 +2,14 @@ body {
   background-color: #fefbe9;
 }
 
+#top-header {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #f0a04b;
+}
+
 .stock-button {
   padding: 1.3em 3em;
   font-size: 12px;
@@ -17,6 +25,75 @@ body {
   cursor: pointer;
   outline: none;
 }
+
+.underline {
+  display: block;
+  width: 60px;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: #333;
+}
+
+div.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 60%;
+  letter-spacing: 2.5px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  color: #f0a04b;
+  margin: auto;
+
+  border: solid red 2px;
+}
+
+h2.who {
+  letter-spacing: 2.5px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  color: #f0a04b;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+div.when {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 50px;
+
+  border: solid greenyellow 2px;
+}
+
+div.where {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 50px;
+
+  border: solid greenyellow 2px;
+}
+
+div.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 50%;
+  font-family: 'Lora', Georgia, times, serif;
+  font-weight: normal;
+  line-height: 1.2;
+  font-style: oblique;
+
+  border: solid yellow 2px;
+}
+
 
 button:hover {
   background-color: #23c483;
@@ -77,15 +154,22 @@ a:visited {
       background-color: #f6c453;
       margin: -110px auto;
       border-radius: 10px;
-      color: #183a1d;
+      color: #001488;
       padding: 0px 0px;
       box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
     }
     
-    .info {
+    .info-rsvp {
       padding: 10px;
     }
     
+    h1.rsvp, p.rsvp {
+      letter-spacing: 2.5px;
+      font-family: 'Raleway';
+      font-weight: 400;
+      color: #001488;
+    }
+
     h1.rsvp, h2.rsvp, p.rsvp {
       text-align: center;
       padding: 0px;
@@ -93,8 +177,10 @@ a:visited {
     }
     
     h2.rsvp {
-      font-family: 'Great Vibes', cursive;
-      font-weight: 100;
+      font-family: 'Lora', Georgia, times, serif;
+      font-weight: normal;
+      line-height: 1.2;
+      font-style: oblique;
     }
     
     p.line {
